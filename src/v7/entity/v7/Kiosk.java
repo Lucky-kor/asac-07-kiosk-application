@@ -1,10 +1,10 @@
-package v7;
+package v7.entity.v7;
 
-import v7.entity.KimbapMenu;
-import v7.entity.KoreaMenu;
-import v7.entity.Menu;
-import v7.helper.IOHandler;
-import v7.utils.KioskUtils;
+import v7.entity.v7.entity.KimbapMenu;
+import v7.entity.v7.entity.KoreaMenu;
+import v7.entity.v7.entity.Menu;
+import v7.entity.v7.helper.IOHandler;
+import v7.entity.v7.utils.KioskUtils;
 
 public class Kiosk {
     final IOHandler ioHandler;

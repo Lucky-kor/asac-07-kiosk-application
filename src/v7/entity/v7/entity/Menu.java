@@ -1,4 +1,4 @@
-package v7.entity;
+package v7.entity.v7.entity;
 
 public abstract class Menu {
     private String name;

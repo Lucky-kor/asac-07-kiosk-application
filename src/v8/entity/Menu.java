@@ -1,4 +1,4 @@
-package v7.entity;
+package v8.entity;
 
 public abstract class Menu {
     private String name;
@@ -17,6 +17,10 @@ public abstract class Menu {
         this.status = status;
     }
 
+    public SaleStatus getStatus() {
+        return status;
+    }
+
     public String getName() {
         return this.name;
     }
@@ -26,6 +30,10 @@ public abstract class Menu {
     }
 
     public abstract String displayDetails();
+
+    public void setStatus(SaleStatus status) {
+        this.status = status;
+    }
 
     public enum SaleStatus {
         AVAILABLE("판매 중"),
